@@ -4,7 +4,7 @@ import { ethers } from "hardhat";
 
 const { expect } = require("chai");
 
-describe("ByobToken contract", () => {
+describe("BaseNFT contract", () => {
     const name: String = "Base NFT";
     const symbol: String = "BNFT";
     const defaultURI = 'QmXNPppGehATJ75LmJtfTsdzbAzTZhexaSEsSEtyTn5frW';
